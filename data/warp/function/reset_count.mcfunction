@@ -1,0 +1,2 @@
+execute as @p at @s if score count_id ID matches -1.. unless score @s ID matches 0.. run scoreboard players add count_id ID 1
+execute as @p at @s if score count_id ID matches 0.. unless score @s ID matches 0.. run scoreboard players operation @s ID = count_id ID
