@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#"
+    ],
+    "key": {
+        "#": "minecraft:armor_stand",
+        "W": "minecraft:writable_book"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

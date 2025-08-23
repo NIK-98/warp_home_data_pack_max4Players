@@ -1,7 +1,6 @@
 function warp:join
 
-#erstelle ein portal
-execute as @a at @s if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_name":"set_warp"}}}] run function warp:create_portal
-
-#tp player
-execute as @a at @s if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_name":"warp"}}}] run function warp:tp
+execute as @p[scores={set_home=1}] at @s run function warp:create_portal
+execute as @p[scores={set_home=1}] at @s run trigger set_home set 0
+execute as @p[scores={go_home=1}] at @s run function warp:tp
+execute as @p[scores={go_home=1}] at @s run trigger go_home set 0

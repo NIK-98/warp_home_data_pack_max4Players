@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "home": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "warp:home_book"
+            }
+        }
+    },
+    "rewards": {
+        "function": "warp:give_home_book"
+    }
+}
