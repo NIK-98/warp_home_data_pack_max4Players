@@ -1,7 +1,2 @@
-warp setzen bzw. überschreiben:
-1. armor_stand im ambos umbennenen in "set_warp" ohne "".
-2. neu benanten armorestand in die hand nehmen und der warp ist überschrieben.
-
-zu warp teleporten:
-1. armor_stand im ambos umbennenen in "warp" ohne "".
-2. neu benanten armorestand in die hand nehmen und man wird zum erstelten warp teleportiert.
+steuerungs buch zum ändern und teleportieren vom warp punkt:
+<img width="484" height="256" alt="crafting-grid_home_book" src="https://github.com/user-attachments/assets/d805c9d3-659f-400f-b18c-94eac211fce5" />
