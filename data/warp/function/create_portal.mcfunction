@@ -8,21 +8,25 @@ execute as @p at @s if score @s ID matches 0 store result storage warps:data pla
 execute as @p at @s if score @s ID matches 0 store result storage warps:data players.player_0.posY double 1 run data get entity @s Pos[1] 1
 execute as @p at @s if score @s ID matches 0 store result storage warps:data players.player_0.posZ double 1 run data get entity @s Pos[2] 1
 execute as @p at @s if score @s ID matches 0 run forceload add ~ ~ ~ ~
+execute as @p at @s if score @s ID matches 0 run scoreboard players set @s first_load 1
 
 execute as @p at @s if score @s ID matches 1 if entity @e[type=armor_stand,tag=set_warp1] as @e[type=armor_stand,tag=set_warp1] at @s run forceload remove ~ ~ ~ ~
 execute as @p at @s if score @s ID matches 1 store result storage warps:data players.player_1.posX double 1 run data get entity @s Pos[0] 1
 execute as @p at @s if score @s ID matches 1 store result storage warps:data players.player_1.posY double 1 run data get entity @s Pos[1] 1
 execute as @p at @s if score @s ID matches 1 store result storage warps:data players.player_1.posZ double 1 run data get entity @s Pos[2] 1
 execute as @p at @s if score @s ID matches 1 run forceload add ~ ~ ~ ~
+execute as @p at @s if score @s ID matches 1 run scoreboard players set @s first_load 1
 
 execute as @p at @s if score @s ID matches 2 if entity @e[type=armor_stand,tag=set_warp2] as @e[type=armor_stand,tag=set_warp2] at @s run forceload remove ~ ~ ~ ~
 execute as @p at @s if score @s ID matches 2 store result storage warps:data players.player_2.posX double 1 run data get entity @s Pos[0] 1
 execute as @p at @s if score @s ID matches 2 store result storage warps:data players.player_2.posY double 1 run data get entity @s Pos[1] 1
 execute as @p at @s if score @s ID matches 2 store result storage warps:data players.player_2.posZ double 1 run data get entity @s Pos[2] 1
 execute as @p at @s if score @s ID matches 2 run forceload add ~ ~ ~ ~
+execute as @p at @s if score @s ID matches 2 run scoreboard players set @s first_load 1
 
 execute as @p at @s if score @s ID matches 3 if entity @e[type=armor_stand,tag=set_warp3] as @e[type=armor_stand,tag=set_warp3] at @s run forceload remove ~ ~ ~ ~
 execute as @p at @s if score @s ID matches 3 store result storage warps:data players.player_3.posX double 1 run data get entity @s Pos[0] 1
 execute as @p at @s if score @s ID matches 3 store result storage warps:data players.player_3.posY double 1 run data get entity @s Pos[1] 1
 execute as @p at @s if score @s ID matches 3 store result storage warps:data players.player_3.posZ double 1 run data get entity @s Pos[2] 1
 execute as @p at @s if score @s ID matches 3 run forceload add ~ ~ ~ ~
+execute as @p at @s if score @s ID matches 3 run scoreboard players set @s first_load 1
