@@ -1,5 +1,3 @@
-kill @e[type=armor_stand,tag=set_warp]
-
 execute unless entity @e[type=armor_stand,tag=set_warp0] run summon armor_stand ^ ^ ^ {Tags:[set_warp0],Invisible:1b,NoGravity:1b,Marker:1b}
 execute unless entity @e[type=armor_stand,tag=set_warp1] run summon armor_stand ^ ^ ^ {Tags:[set_warp1],Invisible:1b,NoGravity:1b,Marker:1b}
 execute unless entity @e[type=armor_stand,tag=set_warp2] run summon armor_stand ^ ^ ^ {Tags:[set_warp2],Invisible:1b,NoGravity:1b,Marker:1b}
