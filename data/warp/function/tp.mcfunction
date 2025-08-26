@@ -1,7 +1,7 @@
-execute unless entity @e[type=armor_stand,tag=set_warp0] run summon armor_stand ^ ^ ^ {Tags:[set_warp0],Invisible:1b,NoGravity:1b,Marker:1b}
-execute unless entity @e[type=armor_stand,tag=set_warp1] run summon armor_stand ^ ^ ^ {Tags:[set_warp1],Invisible:1b,NoGravity:1b,Marker:1b}
-execute unless entity @e[type=armor_stand,tag=set_warp2] run summon armor_stand ^ ^ ^ {Tags:[set_warp2],Invisible:1b,NoGravity:1b,Marker:1b}
-execute unless entity @e[type=armor_stand,tag=set_warp3] run summon armor_stand ^ ^ ^ {Tags:[set_warp3],Invisible:1b,NoGravity:1b,Marker:1b}
+execute unless entity @e[type=armor_stand,tag=set_warp0] run summon armor_stand ^0.5 ^ ^0.5 {Tags:[set_warp0],Invisible:1b,NoGravity:1b,Marker:1b}
+execute unless entity @e[type=armor_stand,tag=set_warp1] run summon armor_stand ^0.5 ^ ^0.5 {Tags:[set_warp1],Invisible:1b,NoGravity:1b,Marker:1b}
+execute unless entity @e[type=armor_stand,tag=set_warp2] run summon armor_stand ^0.5 ^ ^0.5 {Tags:[set_warp2],Invisible:1b,NoGravity:1b,Marker:1b}
+execute unless entity @e[type=armor_stand,tag=set_warp3] run summon armor_stand ^0.5 ^ ^0.5 {Tags:[set_warp3],Invisible:1b,NoGravity:1b,Marker:1b}
 execute if score @s ID matches 0 if dimension minecraft:overworld in minecraft:overworld run tp @e[type=armor_stand,tag=set_warp0,limit=1] @s
 execute if score @s ID matches 0 if dimension minecraft:the_end in minecraft:the_end run tp @e[type=armor_stand,tag=set_warp0,limit=1] @s
 execute if score @s ID matches 0 if dimension minecraft:the_nether in minecraft:the_nether run tp @e[type=armor_stand,tag=set_warp0,limit=1] @s
