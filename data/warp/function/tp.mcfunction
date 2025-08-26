@@ -8,7 +8,7 @@ execute if score @s ID matches 0 if dimension minecraft:the_nether in minecraft:
 execute if score @s ID matches 0 store result entity @e[type=armor_stand,tag=set_warp0,limit=1] Pos[0] double 1 run data get storage warps:data players.player_0.posX 1
 execute if score @s ID matches 0 store result entity @e[type=armor_stand,tag=set_warp0,limit=1] Pos[1] double 1 run data get storage warps:data players.player_0.posY 1
 execute if score @s ID matches 0 store result entity @e[type=armor_stand,tag=set_warp0,limit=1] Pos[2] double 1 run data get storage warps:data players.player_0.posZ 1
-execute if score @s ID matches 0 run tp @s @e[type=armor_stand,tag=set_warp0,limit=1]
+execute as @e[type=armor_stand,tag=set_warp0,limit=1] at @s if score @p ID matches 0 run tp @p ~0.5 ~ ~0.5 facing entity @s eyes
 
 execute if score @s ID matches 1 if dimension minecraft:overworld in minecraft:overworld run tp @e[type=armor_stand,tag=set_warp1,limit=1] @s
 execute if score @s ID matches 1 if dimension minecraft:the_end in minecraft:the_end run tp @e[type=armor_stand,tag=set_warp1,limit=1] @s
@@ -16,7 +16,7 @@ execute if score @s ID matches 1 if dimension minecraft:the_nether in minecraft:
 execute if score @s ID matches 1 store result entity @e[type=armor_stand,tag=set_warp1,limit=1] Pos[0] double 1 run data get storage warps:data players.player_1.posX 1
 execute if score @s ID matches 1 store result entity @e[type=armor_stand,tag=set_warp1,limit=1] Pos[1] double 1 run data get storage warps:data players.player_1.posY 1
 execute if score @s ID matches 1 store result entity @e[type=armor_stand,tag=set_warp1,limit=1] Pos[2] double 1 run data get storage warps:data players.player_1.posZ 1
-execute if score @s ID matches 1 run tp @s @e[type=armor_stand,tag=set_warp1,limit=1]
+execute as @e[type=armor_stand,tag=set_warp1,limit=1] at @s if score @p ID matches 1 run tp @p ~0.5 ~ ~0.5 facing entity @s eyes
 
 execute if score @s ID matches 2 if dimension minecraft:overworld in minecraft:overworld run tp @e[type=armor_stand,tag=set_warp2,limit=1] @s
 execute if score @s ID matches 2 if dimension minecraft:the_end in minecraft:the_end run tp @e[type=armor_stand,tag=set_warp2,limit=1] @s
@@ -24,7 +24,7 @@ execute if score @s ID matches 2 if dimension minecraft:the_nether in minecraft:
 execute if score @s ID matches 2 store result entity @e[type=armor_stand,tag=set_warp2,limit=1] Pos[0] double 1 run data get storage warps:data players.player_2.posX 1
 execute if score @s ID matches 2 store result entity @e[type=armor_stand,tag=set_warp2,limit=1] Pos[1] double 1 run data get storage warps:data players.player_2.posY 1
 execute if score @s ID matches 2 store result entity @e[type=armor_stand,tag=set_warp2,limit=1] Pos[2] double 1 run data get storage warps:data players.player_2.posZ 1
-execute if score @s ID matches 2 run tp @s @e[type=armor_stand,tag=set_warp2,limit=1]
+execute as @e[type=armor_stand,tag=set_warp2,limit=1] at @s if score @p ID matches 2 run tp @p ~0.5 ~ ~0.5 facing entity @s eyes
 
 execute if score @s ID matches 3 if dimension minecraft:overworld in minecraft:overworld run tp @e[type=armor_stand,tag=set_warp3,limit=1] @s
 execute if score @s ID matches 3 if dimension minecraft:the_end in minecraft:the_end run tp @e[type=armor_stand,tag=set_warp3,limit=1] @s
@@ -32,4 +32,4 @@ execute if score @s ID matches 3 if dimension minecraft:the_nether in minecraft:
 execute if score @s ID matches 3 store result entity @e[type=armor_stand,tag=set_warp3,limit=1] Pos[0] double 1 run data get storage warps:data players.player_3.posX 1
 execute if score @s ID matches 3 store result entity @e[type=armor_stand,tag=set_warp3,limit=1] Pos[1] double 1 run data get storage warps:data players.player_3.posY 1
 execute if score @s ID matches 3 store result entity @e[type=armor_stand,tag=set_warp3,limit=1] Pos[2] double 1 run data get storage warps:data players.player_3.posZ 1
-execute if score @s ID matches 3 run tp @s @e[type=armor_stand,tag=set_warp3,limit=1]
+execute as @e[type=armor_stand,tag=set_warp3,limit=1] at @s if score @p ID matches 3 run tp @p ~0.5 ~ ~0.5 facing entity @s eyes
