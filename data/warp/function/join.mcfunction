@@ -6,3 +6,5 @@ scoreboard objectives add set_home trigger
 scoreboard players enable @a set_home
 scoreboard objectives add go_home trigger
 scoreboard players enable @a go_home
+
+tellraw @a {"text": "Home_Book berreit!", "color": "#00ff37"}
