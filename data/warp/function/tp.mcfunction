@@ -41,3 +41,4 @@ execute if score @s ID matches 3 store result entity @e[type=armor_stand,tag=set
 execute if score @s ID matches 3 at @e[type=armor_stand,tag=set_warp3,limit=1] if block ~ ~ ~ #warp:different_height unless block ~ ~ ~ #minecraft:slabs run tp @s ~0.5 ~1 ~0.5
 execute if score @s ID matches 3 at @e[type=armor_stand,tag=set_warp3,limit=1] unless block ~ ~ ~ #warp:different_height if block ~ ~ ~ #minecraft:slabs run tp @s ~0.5 ~0.5 ~0.5
 execute if score @s ID matches 3 at @e[type=armor_stand,tag=set_warp3,limit=1] unless block ~ ~ ~ #warp:different_height unless block ~ ~ ~ #minecraft:slabs run tp @s ~0.5 ~0 ~0.5
+tellraw @s {"text": "Wilkommen zu Hause!", "color": "#00ffb7"}

@@ -30,3 +30,4 @@ execute as @p at @s if score @s ID matches 3 store result storage warps:data pla
 execute as @p at @s if score @s ID matches 3 store result storage warps:data players.player_3.posZ double 1 run data get entity @s Pos[2] 1
 execute as @p at @s if score @s ID matches 3 run forceload add ~ ~ ~ ~
 execute as @p at @s if score @s ID matches 3 run scoreboard players set @s first_load 1
+execute as @p at @s run tellraw @s {"text": "Home Punkt Gesetzt!", "color": "#00ffb7"}
