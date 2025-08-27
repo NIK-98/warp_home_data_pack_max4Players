@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dirt_path",
+    "minecraft:farmland",
+    "minecraft:soul_sand",
+    "minecraft:snow",
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:beetroots"
+  ]
+}
