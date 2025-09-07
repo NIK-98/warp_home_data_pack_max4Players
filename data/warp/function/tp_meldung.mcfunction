@@ -1,0 +1,1 @@
+tellraw @s {"text": "Wilkommen zu Hause!", "color": "#00ffb7"}
